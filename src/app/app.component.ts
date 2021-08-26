@@ -10,8 +10,11 @@ export class AppComponent implements OnInit {
 
 
   ngOnInit() {
-    const smile = String.fromCodePoint(0x1F920);
+    const smile = String.fromCodePoint(0x1F980);
     // const str = `Smile ${smile} you're on TV.`;
     alert(`Welcome to the project! ${smile}`);
+    // let c2 = String.fromCharCode(890);
+    // alert(`Welcome! ${c2}`);
+
   }
 }
